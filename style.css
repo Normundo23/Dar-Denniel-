@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+	nav{
+	flex: 1;
+	text-align: right;
+	
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+	
+	text-decoration: none;
+	color: black;
+	
+
+a:hover{
+	background: #563434;
+}
+
+	
+}
+p{
+	color: #555;
+	}
+	
+.logo img{
+     height: 125px;
+     width: 90%;
+
+}
+
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row{
+	display: flex;
+	text-align: center;
+
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	max-width: 50%;
+	padding: 50px;
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+    text-align: center;
+}
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+
+}
+.header{
+	background:radial-gradient( #FFD580,   #ff523b ); ;
+}
+.btn:hover{
+	background: #563434;
+}
+
+.categories{
+	margin: 70px 0;
+}
+.col-3{
+	flex-basis: 30%;
+	min-width: 200px;
+	margin-bottom: 0px;
+}
+.col-3 img{
+	width: 100%;
+	height: 300px;
+}
+
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+h2{
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.icons{
+	position: absolute;
+	height: 90px;
+	width: 100%;
+	bottom: ;
+	background-color: #fed8b1 ;
+}
+.button{
+	position: absolute;
+	align-items: center;
+
+	flex-direction: row;
+	display: felx;
+	align-items: flex-start;
+	padding: 0px;
+	left:  calc(50% - 190px/2)
+}
+.button img{
+	width: 25px;
+	height: 25px;
+	margin: 15px;
+}
+
+
+
+.btn2{
+	
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 10px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+
+}
+
+.btn2:hover{
+	background: #563434;
+}
+
+.order{
+	display: flex;
+	text-align: center;
+
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
